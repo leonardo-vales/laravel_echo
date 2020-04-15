@@ -29,3 +29,5 @@ class SendMessage implements ShouldBroadcast
         return new Channel("room.{$this->message->room_id}");
     }
 }
+
+//teste
